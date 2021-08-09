@@ -1,4 +1,16 @@
 .bg{
+    &-about{
+        @include set-background($bg__offer-img,0,"center","cover","fixed");
+
+    }
+    &-home{
+        @include set-background($bg__home-img,0,"center","cover","scroll");
+
+    }
+    &-offer{
+        @include set-background($bg__offer-img,0,"center","cover","fixed");
+
+    }
     &-orange{
         background-color: $color__orange!important;
     }
@@ -28,4 +40,17 @@
 }
 textarea{
     resize: none;
+}
+
+@media all and (max-width:767px){
+    .bg{
+        &-collapsed-orange{
+            background-color: $color__orange!important;
+        }
+    }
+    .border{
+        &-collapsed-dark-orange{
+            border: 1px solid $color__dark-orange!important;
+        }
+    }
 }

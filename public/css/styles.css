@@ -27,11 +27,35 @@ body, html {
 }
 
 /* line 2, ../../sass/partials/_modules.scss */
+.bg-about {
+  background-attachment: fixed;
+  background-image: url(../img/home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 6, ../../sass/partials/_modules.scss */
+.bg-home {
+  background-attachment: scroll;
+  background-image: url(../img/home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 10, ../../sass/partials/_modules.scss */
+.bg-offer {
+  background-attachment: fixed;
+  background-image: url(../img/home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 14, ../../sass/partials/_modules.scss */
 .bg-orange {
   background-color: #f58030 !important;
 }
 
-/* line 7, ../../sass/partials/_modules.scss */
+/* line 19, ../../sass/partials/_modules.scss */
 .contact-bg {
   background-attachment: fixed;
   background-image: url(../img/coming.jpg);
@@ -40,7 +64,7 @@ body, html {
   background-size: cover;
 }
 
-/* line 12, ../../sass/partials/_modules.scss */
+/* line 24, ../../sass/partials/_modules.scss */
 .login-form, .register-form {
   background-attachment: fixed;
   background-image: url(../img/coming.jpg);
@@ -49,20 +73,31 @@ body, html {
   background-size: cover;
 }
 
-/* line 17, ../../sass/partials/_modules.scss */
+/* line 29, ../../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
-/* line 20, ../../sass/partials/_modules.scss */
+/* line 32, ../../sass/partials/_modules.scss */
 .opacity-9 {
   opacity: 0.9;
 }
 
-/* line 29, ../../sass/partials/_modules.scss */
+/* line 41, ../../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
+@media all and (max-width: 767px) {
+  /* line 47, ../../sass/partials/_modules.scss */
+  .bg-collapsed-orange {
+    background-color: #f58030 !important;
+  }
+
+  /* line 52, ../../sass/partials/_modules.scss */
+  .border-collapsed-dark-orange {
+    border: 1px solid #b64f09 !important;
+  }
+}
 /* line 31, ../../sass/partials/_mixins.scss */
 .error-s1 {
   background-attachment: fixed;

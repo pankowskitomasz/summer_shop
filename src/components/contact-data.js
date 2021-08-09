@@ -29,8 +29,8 @@ class ContactData extends Component{
                                 Contact us
                             </h1>
                             <p className="initialism">
-                                Hungry? Don't wait call us! Our delicious pizzas are 
-                                waiting for you!
+                                Our employees are always ready to solve your problems.
+                                Contact with us and check how we can help you. 
                             </p>
                             <address className="d-block w-50 mx-auto p-2 mb-4 initialism text-center">
                                 00-001 City,<br/> 
