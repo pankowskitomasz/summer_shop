@@ -1,7 +1,10 @@
+$bg__about-img: "../img/home.jpg";
 $bg__comingsoon-img: "../img/coming.jpg";
 $bg__contact-img: "../img/coming.jpg";
 $bg__error-img: $bg__comingsoon-img;
+$bg__home-img: "../img/home.jpg";
 $bg__login-img: "../img/coming.jpg";
+$bg__offer-img: $bg__home-img;
 $bg__privacy-img: $bg__comingsoon-img;
 $bg__classes:
     "error",
@@ -14,6 +17,7 @@ $bg__aoa:
 $box__shadow: 2px 2px 5px #333;
 $color__container-bg: #333;
 $color__orange: #f58030;
+$color__dark-orange: darken($color__orange,20%);
 $color__shadow: #000;
 $header__height: 0px;
 $section__min-height: 100vh;
