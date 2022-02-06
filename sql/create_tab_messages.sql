@@ -1,4 +1,4 @@
-CREATE TABLE summer_shop_messages(
+CREATE TABLE summershop_messages(
     id INT NOT NULL AUTO_INCREMENT,
     firstname VARCHAR(50) NOT NULL,
     lastname VARCHAR(50) NOT NULL,
